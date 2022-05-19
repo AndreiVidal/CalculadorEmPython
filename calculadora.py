@@ -2,11 +2,11 @@ def menuCalc():
     print(('=' * 15),'Python Calculator', ('=' * 15) )
     print("""
     Qual operação deseja realizar:
-    [1] - Adiçao:
-    [2] - Subtração:
-    [3] - Multiplicação:
-    [4] - Divisão:
-    [5] - Sair
+    \033[1;34m[1]\033[m - Adiçao:
+    \033[1;34m[2]\033[m - Subtração:
+    \033[1;34m[3]\033[m - Multiplicação:
+    \033[1;34m[4]\033[m - Divisão:
+    \033[1;31m[5]\033[m - Sair
     
     """)
 
